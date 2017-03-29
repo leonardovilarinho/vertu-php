@@ -1,0 +1,38 @@
+{
+    "name"          : "leonardovilarinho/tcc",
+    "description"   : "Mineiração com PHP",
+    "type"          : "project",
+    "license"       : "MITS",
+    "authors"       : [
+
+        {
+            "name"  : "Leonardo Vilarinho",
+            "email" : "leonardo-i@outlook.com"
+        }
+
+    ],
+    "require"       : {
+
+        "symfony/finder"            : "3.2.*",
+        "vlucas/phpdotenv"          : "2.4.*",
+        "kevinlebrun/colors.php"    : "0.*",
+        "webmozart/json"            : "1.2.*",
+        "eden/file"                 : "4.0.*",
+        "cangelis/pdf"              : "2.2.*",
+        "kzykhys/git"               : "dev-master",
+        "gemorroj/syntax"           : "dev-master",
+        "webmozart/console"         : "~1.0@beta",
+        "symfony/options-resolver"   : "^2.8"
+
+    },
+    "require-dev"   : {
+
+        "phpunit/phpunit"           : "6.0.*"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPMetric\\": "src/"
+        }
+    }
+}
