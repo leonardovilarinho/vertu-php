@@ -1,10 +1,10 @@
-#Vertu PHP
+# Vertu PHP
 
 É uma ferramenta que tem o objetivo de analisar a qualidade de um código feito em PHP, calculando algumas métricas que representam a sua qualidade.
 
 O nome Vertu PHP, vem do francês 'virtude', com pronuncia 'vert', dado que a virtude é algo que desejamos, é considerado o correto e o objetivo comum.
 
-##Instalação
+## Instalação
 
 Por enquanto não contamos com um meio de instalação concreto, no final todo o projeto será disponibilizado em um arquivo PHAR, assim como é feito com o Composer e PHPUnit.
 
@@ -18,7 +18,7 @@ E instalando suas dependências:
 composer install
 ```
 
-##Configurando
+## Configurando
 
 Você pode personalizar o Vertu, adicionando o arquivo de configuração `.env`, nele você pode definir algumas opções:
 
@@ -41,7 +41,7 @@ RANKING= 6
 OMIT= interface
 ```
 
-##Executando
+## Executando
 
 No momento atual, para executar a ferramenta, no diretório do VertuPHP execute:
 ```

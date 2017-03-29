@@ -1,10 +1,10 @@
-#Vertu PHP
+# Vertu PHP
 
 An tool with objective of analyze the quality of an code builded in PHP, calculating some metrics that represents your quality.
 
 The VertuPHP name, come of french 'virtue', with pronuncie 'vert', on way that the virtue is any thing that we want, is the correct, an objective common.
 
-##Installation
+## Installation
 
 No we contains an concrete method of installation, on end, all the project it will be available in an PHAR file, as the Composer and PHPUnit.
 
@@ -18,7 +18,7 @@ And installing your dependencies:
 composer install
 ```
 
-##Settinging
+## Settinging
 
 You can personalizate the Vertu, adding the config file `.env`, defining some options:
 
@@ -40,7 +40,7 @@ RANKING= 6
 OMIT= interface
 ```
 
-##Executing
+## Executing
 
 Actually, to execute the tool, use the following command in VertuPHP folder:
 ```
